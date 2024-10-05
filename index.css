@@ -59,7 +59,7 @@ h5 {
 .flexbox4 {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content:space-around
     align-items: center;
     
     height: 50px;
