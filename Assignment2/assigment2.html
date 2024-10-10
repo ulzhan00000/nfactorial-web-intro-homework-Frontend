@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <script>
+        let vehicle = {};
+
+        vehicle.brandName = "BMW";
+        vehicle.model = "X5";
+        console.log(vehicle); // { brandName: "BMW", model: "X5" }
+
+        vehicle.model = "M1";
+        console.log(vehicle); // { brandName: "BMW", model: "M1" }
+
+        delete vehicle.model;
+        console.log(vehicle); // { brandName: "BMW" }
+    </script>
+    
+</body>
+</html>
