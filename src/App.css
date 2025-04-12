@@ -1,0 +1,11 @@
+.App {
+  /* text-align: center; */
+  font-family: "Roboto", sans-serif;
+}
+/* https://fonts.google.com/selection/embed   по этой ссылке можешь найти шрифты скопировать код ксс и вставить */
+
+.vertical-divider{
+  width:2px;
+  height: auto;
+  background-color: whitesmoke;
+}
